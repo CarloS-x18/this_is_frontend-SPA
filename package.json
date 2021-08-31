@@ -1,0 +1,19 @@
+{
+  "name": "this_is_frontend-spa",
+  "version": "1.0.0",
+  "description": "Proyect to single page aplication, what explains the frontend development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CarloS-x18/this_is_frontend-SPA.git"
+  },
+  "author": "Carlos Alberto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarloS-x18/this_is_frontend-SPA/issues"
+  },
+  "homepage": "https://github.com/CarloS-x18/this_is_frontend-SPA#readme"
+}
