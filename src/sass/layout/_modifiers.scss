@@ -1,0 +1,19 @@
+.slide {
+    top: -100%;
+    height: 90%;
+    transition: $slide;
+}
+.show-main {
+    bottom: 0;
+    transition: $slide;
+
+}
+.show-header {
+    top: 0;
+    transition: $slide;
+}
+.slide-main {
+    margin-top: 10rem;
+    bottom: -100%;
+    transition: $slide;
+}

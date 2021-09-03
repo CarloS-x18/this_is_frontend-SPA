@@ -1,0 +1,95 @@
+.container {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.header {
+    height: 100%;
+    width: 100%;
+    border: $border;
+    display: flex;
+    justify-content: space-between;
+    // transition slide
+    top: 0;
+    position: absolute;
+
+    .text {
+        padding: 5rem 0 5rem 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        p {
+            font-size: 3rem;
+        }
+    }
+    
+    .rectangle {
+        height: 100%;
+        background-color: $primary;
+        border-left: $border;
+        width: 25rem;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .button-arrow {
+        padding: 5rem 0;
+        border-top: $border;
+        width: 100%;
+        margin: 0;
+        display: grid;
+        place-items: center;
+    }
+}
+.main {
+    height: 100%;
+    border: $border;
+    // transition slide
+    bottom: -100%;
+    position: relative;
+
+    .main__nav {
+        width: 24rem;
+        height: 100%;
+        background-color: $primary;
+        border-right: $border;
+        padding-top: 2rem;
+        
+    }
+    .logo {
+        width: 100%;
+        display: grid;
+        place-items: center;
+
+        img {
+            width: 20rem;
+        }
+    }
+    .nav {
+        margin-top: 10rem;
+        text-align: right;
+        display: grid;
+        gap: 2.5rem;
+        padding-right: 2.5rem;
+
+        a {
+            font-family: $font-poppins;
+            font-size: 2.8rem;
+        }
+    }
+    .socials {
+        width: 30rem;
+        height: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        background-color: $primary;
+        border-right: $border;
+        border-top: $border;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}

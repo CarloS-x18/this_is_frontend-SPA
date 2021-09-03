@@ -5,22 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ThisIsFrontend</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header class="header">
-        <section>
-            <h1>this is frontend development</h1>
-            <div>
-                <p>author carlos alberto</p>
-                <p>frontend developer</p>
+    <div class="container">
+        <header class="header">
+            <div class="text">
+                <h1>This is Frontend <br> Development</h1>
+                <div class="author">
+                    <p class="medium">Author Carlos Alberto</p>
+                    <p class="light">Frontend Developer</p>
+                </div>
             </div>
-        </section>
-        <div>
-            <button id="button">
-                <img src="assets/descargar.png" alt="">
-            </button>
-        </div>
-    </header>
+
+            <div class="rectangle">
+                <div class="button-arrow">
+                    <button id="button-arrow" class="button">
+                        <img src="./assets/arrow.png" alt="icon arrow">
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <nav class="main__nav">
+                <a href="#" class="logo">
+                    <img src="assets/logo.png" alt="">
+                </a>
+
+                <ul class="nav bold">
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#layout">Layout</a>
+                    </li>
+                    <li>
+                        <a href="#interactivity">Interactivity</a>
+                    </li>
+                    <li>
+                        <a href="#tools">Tools</a>
+                    </li>
+                </ul>
+
+                <ul class="socials">
+                    <li>
+                        <a href="https://github.com">
+                            <img src="assets/github-icon.png" alt="icon github">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com">
+                            <img src="assets/twitter-icon.png" alt="icon twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://youtube.com">
+                            <img src="assets/youtube-icon.png" alt="icon youtube">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </main>
+    </div>
 </body> 
 </html>

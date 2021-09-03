@@ -5,6 +5,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'build/')
     },
+    watch: true,
     module: {
         rules: [
             {
@@ -24,7 +25,7 @@ module.exports = {
                 },
             },
             {
-                test: /\.(png|jpg|gif|svg)$/i,
+                test: /\.(png|jpg|gif)$/i,
                 use: [
                     {
                         loader: 'file-loader',
@@ -44,4 +45,5 @@ module.exports = {
         })
     ]
 }
+
 

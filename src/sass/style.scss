@@ -1,1 +1,7 @@
-@import './base/globales';
+@import './base/variables';
+@import './base/globals';
+@import './base/utilities';
+
+@import './layout/index';
+
+@import './layout/modifiers'

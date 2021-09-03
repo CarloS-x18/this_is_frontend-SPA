@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 2rem;
+    height: 100vh;
+}
+a {
+    text-decoration: none;
+    color: $black
+}
+button {
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+h1, h2, h3 {
+    margin: 0;
+    font-family: $font-poppins;
+}
+h1 {
+    font-size: 6.5rem;
+}
+p {
+    font-family: $font-roboto;
+}
+li {
+    list-style: none;
+}
