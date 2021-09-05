@@ -8,6 +8,9 @@ import './assets/github-icon.png';
 import './assets/twitter-icon.png';
 import './assets/youtube-icon.png';
 
+// router
+import { router } from './router/index.routes';
+
 // Variables
 const headerContent = document.querySelector('.header');
 const mainContent = document.querySelector('.main');
@@ -33,3 +36,10 @@ logo.addEventListener('click', () => {
     mainContent.classList.remove('show-main');
 
 });
+
+router(window.location.hash);
+
+// Routes Function 
+window.addEventListener('hashchange', () => {
+    router(window.location.hash);
+})

@@ -16,7 +16,7 @@
   \**********************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"html {\\n  box-sizing: border-box;\\n  font-size: 62.5%; }\\n\\n*, *:after, *:before {\\n  box-sizing: inherit; }\\n\\n* {\\n  margin: 0;\\n  padding: 0; }\\n\\nbody {\\n  padding: 2rem;\\n  height: 100vh; }\\n\\na {\\n  text-decoration: none;\\n  color: #000; }\\n\\nbutton {\\n  background-color: transparent;\\n  border-color: transparent;\\n  cursor: pointer; }\\n\\nh1, h2, h3 {\\n  margin: 0;\\n  font-family: \\\"Poppins\\\", sans-serif; }\\n\\nh1 {\\n  font-size: 6.5rem; }\\n\\np {\\n  font-family: \\\"Roboto Mono\\\", monospace; }\\n\\nli {\\n  list-style: none; }\\n\\n.light {\\n  font-weight: 300; }\\n\\n.medium {\\n  font-weight: 600; }\\n\\n.bold {\\n  font-weight: 900; }\\n\\n.container {\\n  height: 100%;\\n  overflow: hidden;\\n  position: relative; }\\n\\n.header {\\n  height: 100%;\\n  width: 100%;\\n  border: 6px solid #000;\\n  display: flex;\\n  justify-content: space-between;\\n  top: 0;\\n  position: absolute; }\\n  .header .text {\\n    padding: 5rem 0 5rem 5rem;\\n    display: flex;\\n    flex-direction: column;\\n    justify-content: space-between; }\\n    .header .text p {\\n      font-size: 3rem; }\\n  .header .rectangle {\\n    height: 100%;\\n    background-color: #26F3C2;\\n    border-left: 6px solid #000;\\n    width: 25rem;\\n    display: flex;\\n    flex-direction: column-reverse; }\\n  .header .button-arrow {\\n    padding: 5rem 0;\\n    border-top: 6px solid #000;\\n    width: 100%;\\n    margin: 0;\\n    display: grid;\\n    place-items: center; }\\n\\n.main {\\n  height: 100%;\\n  border: 6px solid #000;\\n  bottom: -100%;\\n  position: relative; }\\n  .main .main__nav {\\n    width: 24rem;\\n    height: 100%;\\n    background-color: #26F3C2;\\n    border-right: 6px solid #000;\\n    padding-top: 2rem; }\\n  .main .logo {\\n    width: 100%;\\n    display: grid;\\n    place-items: center; }\\n    .main .logo img {\\n      width: 20rem; }\\n  .main .nav {\\n    margin-top: 10rem;\\n    text-align: right;\\n    display: grid;\\n    gap: 2.5rem;\\n    padding-right: 2.5rem; }\\n    .main .nav a {\\n      font-family: \\\"Poppins\\\", sans-serif;\\n      font-size: 2.8rem; }\\n  .main .socials {\\n    width: 30rem;\\n    height: 10rem;\\n    display: flex;\\n    justify-content: center;\\n    align-items: center;\\n    gap: 3rem;\\n    background-color: #26F3C2;\\n    border-right: 6px solid #000;\\n    border-top: 6px solid #000;\\n    position: absolute;\\n    bottom: 0;\\n    left: 0; }\\n\\n.slide {\\n  top: -100%;\\n  height: 90%;\\n  transition: all 1s ease-out; }\\n\\n.show-main {\\n  bottom: 0;\\n  transition: all 1s ease-out; }\\n\\n.show-header {\\n  top: 0;\\n  transition: all 1s ease-out; }\\n\\n.slide-main {\\n  margin-top: 10rem;\\n  bottom: -100%;\\n  transition: all 1s ease-out; }\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://this_is_frontend-spa/./src/sass/style.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"html {\\n  box-sizing: border-box;\\n  font-size: 62.5%; }\\n\\n*, *:after, *:before {\\n  box-sizing: inherit; }\\n\\n* {\\n  margin: 0;\\n  padding: 0; }\\n\\nbody {\\n  padding: 2rem;\\n  height: 100vh; }\\n\\na {\\n  text-decoration: none;\\n  color: #000; }\\n\\nbutton {\\n  background-color: transparent;\\n  border-color: transparent;\\n  cursor: pointer; }\\n\\nh1, h2, h3 {\\n  margin: 0;\\n  font-family: \\\"Poppins\\\", sans-serif; }\\n\\nh1 {\\n  font-size: 6.5rem; }\\n\\np {\\n  font-family: \\\"Roboto Mono\\\", monospace; }\\n\\nli {\\n  list-style: none; }\\n\\n.light {\\n  font-weight: 300; }\\n\\n.medium {\\n  font-weight: 600; }\\n\\n.bold {\\n  font-weight: 900; }\\n\\n.container {\\n  height: 100%;\\n  overflow: hidden;\\n  position: relative; }\\n\\n.header {\\n  height: 100%;\\n  width: 100%;\\n  border: 6px solid #000;\\n  display: flex;\\n  justify-content: space-between;\\n  top: 0;\\n  position: absolute; }\\n  .header .text {\\n    padding: 5rem 5rem;\\n    display: flex;\\n    flex-direction: column;\\n    justify-content: space-between; }\\n    .header .text p {\\n      font-size: 3rem; }\\n  .header .rectangle {\\n    height: 100%;\\n    background-color: #26F3C2;\\n    border-left: 6px solid #000;\\n    width: 25rem;\\n    display: flex;\\n    flex-direction: column-reverse; }\\n  .header .button-arrow {\\n    padding: 5rem 0;\\n    border-top: 6px solid #000;\\n    width: 100%;\\n    margin: 0;\\n    display: grid;\\n    place-items: center; }\\n\\n.main {\\n  height: 100%;\\n  border: 6px solid #000;\\n  bottom: -100%;\\n  position: relative;\\n  display: flex; }\\n  .main .main__nav {\\n    width: 24rem;\\n    height: 100%;\\n    background-color: #26F3C2;\\n    border-right: 6px solid #000;\\n    padding-top: 2rem; }\\n  .main .logo {\\n    width: 100%;\\n    display: grid;\\n    place-items: center; }\\n    .main .logo img {\\n      width: 20rem; }\\n  .main .nav {\\n    margin-top: 10rem;\\n    text-align: right;\\n    display: grid;\\n    gap: 2.5rem;\\n    padding-right: 2.5rem; }\\n    .main .nav a {\\n      font-family: \\\"Poppins\\\", sans-serif;\\n      font-size: 2.8rem; }\\n  .main .socials {\\n    width: 30rem;\\n    height: 10rem;\\n    display: flex;\\n    justify-content: center;\\n    align-items: center;\\n    gap: 3rem;\\n    background-color: #26F3C2;\\n    border-right: 6px solid #000;\\n    border-top: 6px solid #000;\\n    position: absolute;\\n    bottom: 0;\\n    left: 0; }\\n\\n.slide {\\n  top: -100%;\\n  height: 90%;\\n  transition: all 0.5s ease-out; }\\n\\n.show-main {\\n  bottom: 0;\\n  transition: all 0.5s ease-out; }\\n\\n.show-header {\\n  top: 0;\\n  transition: all 0.5s ease-out; }\\n\\n.slide-main {\\n  margin-top: 10rem;\\n  bottom: -100%;\\n  transition: all 0.5s ease-out; }\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://this_is_frontend-spa/./src/sass/style.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -77,6 +77,46 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"assets/youtube-icon.png\");\n\n//# sourceURL=webpack://this_is_frontend-spa/./src/assets/youtube-icon.png?");
+
+/***/ }),
+
+/***/ "./src/views/home.html":
+/*!*****************************!*\
+  !*** ./src/views/home.html ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Module\nvar code = \"<h1>Home</h1>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://this_is_frontend-spa/./src/views/home.html?");
+
+/***/ }),
+
+/***/ "./src/views/interactivity.html":
+/*!**************************************!*\
+  !*** ./src/views/interactivity.html ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Module\nvar code = \"<h1>Interactivity</h1>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://this_is_frontend-spa/./src/views/interactivity.html?");
+
+/***/ }),
+
+/***/ "./src/views/layout.html":
+/*!*******************************!*\
+  !*** ./src/views/layout.html ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Module\nvar code = \"<h1>Layout</h1>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://this_is_frontend-spa/./src/views/layout.html?");
+
+/***/ }),
+
+/***/ "./src/views/tools.html":
+/*!******************************!*\
+  !*** ./src/views/tools.html ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Module\nvar code = \"<h1>Tools</h1>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://this_is_frontend-spa/./src/views/tools.html?");
 
 /***/ }),
 
@@ -150,13 +190,73 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, style) {\
 
 /***/ }),
 
+/***/ "./src/controllers/home.controller.js":
+/*!********************************************!*\
+  !*** ./src/controllers/home.controller.js ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _views_home_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../views/home.html */ \"./src/views/home.html\");\n\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (() => {\r\n    const divElement = document.createElement('div');\r\n    divElement.innerHTML = _views_home_html__WEBPACK_IMPORTED_MODULE_0__.default;\r\n\r\n    return divElement;\r\n});\n\n//# sourceURL=webpack://this_is_frontend-spa/./src/controllers/home.controller.js?");
+
+/***/ }),
+
+/***/ "./src/controllers/index.js":
+/*!**********************************!*\
+  !*** ./src/controllers/index.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"pages\": () => (/* binding */ pages)\n/* harmony export */ });\n/* harmony import */ var _home_controller__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home.controller */ \"./src/controllers/home.controller.js\");\n/* harmony import */ var _layout_controller__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./layout.controller */ \"./src/controllers/layout.controller.js\");\n/* harmony import */ var _interactivity_controller__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./interactivity.controller */ \"./src/controllers/interactivity.controller.js\");\n/* harmony import */ var _tools_controller__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./tools.controller */ \"./src/controllers/tools.controller.js\");\n\r\n\r\n\r\n\r\n\r\nconst pages = {\r\n    Home: _home_controller__WEBPACK_IMPORTED_MODULE_0__.default,\r\n    Layout: _layout_controller__WEBPACK_IMPORTED_MODULE_1__.default,\r\n    Interactivity: _interactivity_controller__WEBPACK_IMPORTED_MODULE_2__.default,\r\n    Tools: _tools_controller__WEBPACK_IMPORTED_MODULE_3__.default\r\n}\r\n\r\n\n\n//# sourceURL=webpack://this_is_frontend-spa/./src/controllers/index.js?");
+
+/***/ }),
+
+/***/ "./src/controllers/interactivity.controller.js":
+/*!*****************************************************!*\
+  !*** ./src/controllers/interactivity.controller.js ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _views_interactivity_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../views/interactivity.html */ \"./src/views/interactivity.html\");\n\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (() => {\r\n    const divElement = document.createElement('div');\r\n    divElement.innerHTML = _views_interactivity_html__WEBPACK_IMPORTED_MODULE_0__.default;\r\n\r\n    return divElement;\r\n});\n\n//# sourceURL=webpack://this_is_frontend-spa/./src/controllers/interactivity.controller.js?");
+
+/***/ }),
+
+/***/ "./src/controllers/layout.controller.js":
+/*!**********************************************!*\
+  !*** ./src/controllers/layout.controller.js ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _views_layout_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../views/layout.html */ \"./src/views/layout.html\");\n\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (() => {\r\n    const divElement = document.createElement('div');\r\n    divElement.innerHTML = _views_layout_html__WEBPACK_IMPORTED_MODULE_0__.default;\r\n\r\n    return divElement;\r\n});\n\n//# sourceURL=webpack://this_is_frontend-spa/./src/controllers/layout.controller.js?");
+
+/***/ }),
+
+/***/ "./src/controllers/tools.controller.js":
+/*!*********************************************!*\
+  !*** ./src/controllers/tools.controller.js ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _views_tools_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../views/tools.html */ \"./src/views/tools.html\");\n\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (() => {\r\n    const divElement = document.createElement('div');\r\n    divElement.innerHTML = _views_tools_html__WEBPACK_IMPORTED_MODULE_0__.default;\r\n\r\n    return divElement;\r\n});\n\n//# sourceURL=webpack://this_is_frontend-spa/./src/controllers/tools.controller.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sass/style.scss */ \"./src/sass/style.scss\");\n/* harmony import */ var _assets_arrow_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/arrow.png */ \"./src/assets/arrow.png\");\n/* harmony import */ var _assets_logo_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/logo.png */ \"./src/assets/logo.png\");\n/* harmony import */ var _assets_github_icon_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/github-icon.png */ \"./src/assets/github-icon.png\");\n/* harmony import */ var _assets_twitter_icon_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/twitter-icon.png */ \"./src/assets/twitter-icon.png\");\n/* harmony import */ var _assets_youtube_icon_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/youtube-icon.png */ \"./src/assets/youtube-icon.png\");\n// styles\r\n\r\n\r\n// images\r\n\r\n\r\n\r\n\r\n\r\n\r\n// Variables\r\nconst headerContent = document.querySelector('.header');\r\nconst mainContent = document.querySelector('.main');\r\nconst buttonToggle = document.querySelector('#button-arrow');\r\nconst logo = document.querySelector('.logo');\r\n\r\nbuttonToggle.addEventListener('click', () => {\r\n\r\n    headerContent.classList.add('slide');\r\n    mainContent.classList.add('show-main');\r\n\r\n    headerContent.classList.remove('show-header');\r\n    mainContent.classList.remove('slide-main');\r\n\r\n});\r\n\r\nlogo.addEventListener('click', () => {\r\n\r\n    headerContent.classList.add('show-header');\r\n    mainContent.classList.add('slide-main');\r\n\r\n    headerContent.classList.remove('slide');\r\n    mainContent.classList.remove('show-main');\r\n\r\n});\n\n//# sourceURL=webpack://this_is_frontend-spa/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sass/style.scss */ \"./src/sass/style.scss\");\n/* harmony import */ var _assets_arrow_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/arrow.png */ \"./src/assets/arrow.png\");\n/* harmony import */ var _assets_logo_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/logo.png */ \"./src/assets/logo.png\");\n/* harmony import */ var _assets_github_icon_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/github-icon.png */ \"./src/assets/github-icon.png\");\n/* harmony import */ var _assets_twitter_icon_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/twitter-icon.png */ \"./src/assets/twitter-icon.png\");\n/* harmony import */ var _assets_youtube_icon_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/youtube-icon.png */ \"./src/assets/youtube-icon.png\");\n/* harmony import */ var _router_index_routes__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./router/index.routes */ \"./src/router/index.routes.js\");\n// styles\r\n\r\n\r\n// images\r\n\r\n\r\n\r\n\r\n\r\n\r\n// router\r\n\r\n\r\n// Variables\r\nconst headerContent = document.querySelector('.header');\r\nconst mainContent = document.querySelector('.main');\r\nconst buttonToggle = document.querySelector('#button-arrow');\r\nconst logo = document.querySelector('.logo');\r\n\r\nbuttonToggle.addEventListener('click', () => {\r\n\r\n    headerContent.classList.add('slide');\r\n    mainContent.classList.add('show-main');\r\n\r\n    headerContent.classList.remove('show-header');\r\n    mainContent.classList.remove('slide-main');\r\n\r\n});\r\n\r\nlogo.addEventListener('click', () => {\r\n\r\n    headerContent.classList.add('show-header');\r\n    mainContent.classList.add('slide-main');\r\n\r\n    headerContent.classList.remove('slide');\r\n    mainContent.classList.remove('show-main');\r\n\r\n});\r\n\r\n(0,_router_index_routes__WEBPACK_IMPORTED_MODULE_6__.router)(window.location.hash);\r\n\r\n// Routes Function \r\nwindow.addEventListener('hashchange', () => {\r\n    (0,_router_index_routes__WEBPACK_IMPORTED_MODULE_6__.router)(window.location.hash);\r\n})\n\n//# sourceURL=webpack://this_is_frontend-spa/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/router/index.routes.js":
+/*!************************************!*\
+  !*** ./src/router/index.routes.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"router\": () => (/* binding */ router)\n/* harmony export */ });\n/* harmony import */ var _controllers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../controllers */ \"./src/controllers/index.js\");\n\r\n\r\nconst main = document.getElementById('root');\r\n\r\nconst router = route => {\r\n\r\n    main.innerHTML = '';\r\n\r\n    switch (route) {\r\n        case '#/': \r\n            return main.appendChild(_controllers__WEBPACK_IMPORTED_MODULE_0__.pages.Home());\r\n        case '#/layout': \r\n            return main.appendChild(_controllers__WEBPACK_IMPORTED_MODULE_0__.pages.Layout());\r\n        case '#/interactivity':\r\n            return main.appendChild(_controllers__WEBPACK_IMPORTED_MODULE_0__.pages.Interactivity());\r\n        case '#/tools':\r\n            return main.appendChild(_controllers__WEBPACK_IMPORTED_MODULE_0__.pages.Tools());\r\n    }\r\n}\r\n\r\n\n\n//# sourceURL=webpack://this_is_frontend-spa/./src/router/index.routes.js?");
 
 /***/ })
 
